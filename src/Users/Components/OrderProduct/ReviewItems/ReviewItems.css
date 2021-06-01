@@ -1,0 +1,74 @@
+.reviewItems {
+    background-color: white;
+    text-align: left;
+}
+
+
+.reviewItems__container > h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    background-color: rgb(234, 237, 237);
+    border-bottom: 1px solid lightgray;
+}
+
+.reviewItems__container > h1 a {
+    text-decoration: none;
+}
+
+.reviewItems__section {
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.reviewItems__title {
+    flex: 0.2;
+}
+
+.reviewItems__address, .reviewItems__items, .reviewItems__details {
+    flex: 0.8;
+}
+
+.reviewItems__details > form {
+    max-width: 400px;
+}
+
+.reviewItems__details > h3 {
+    padding-bottom: 20px;
+}
+
+
+.reviewItems__details > form > div > button {
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
+
+.reviewItems__section > button{
+    margin-right: auto;
+    margin-left: auto;
+    background: #001f6e;
+    border-radius: 2px;
+    min-width: 200px;
+    max-width: 500px;
+    height: 50px;
+    border: 1px solid #087da1;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.totalPrice{
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 10px;
+}

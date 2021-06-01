@@ -1,0 +1,263 @@
+.AddProduct{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.productLeft{
+    background: white;
+    font-size: 16px;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    width: 40%;
+    height: 20vh;
+}
+
+.ProductColumnLeft {
+    background: white;
+    font-size: 16px;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    width: 40%;
+    height: 45vh;
+}
+
+.ProductColumnRight{
+    background: white;
+    font-size: 16px;
+    display: block;
+    float: right;
+    box-sizing: border-box;
+    width: 55%;
+    margin-bottom: 50px;
+}
+
+.ProductDetail__carousel{
+    background-color: white;
+    width: 90%;
+    max-height: 44vh;
+}
+
+.productDetail_image{
+    max-height: 44vh;
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.ProductDetail_Info{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    text-align: start;
+}
+
+.product__tr{
+    border-bottom: 1px solid lightgray;
+}
+
+.product__title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.product__price{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.addProductInput{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.productdesc{
+    margin: 15px;
+}
+
+.addProductprice{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.productQuanitity{
+    margin-top: 20px;
+}
+
+.circularprogress{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submitbtn{
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 890px)
+{   
+    .AddProduct{
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ProductDetail__carousel{
+        width: 100%;
+        background-color: white;
+        justify-content: center;
+    }
+
+    .productDetail_image{
+        width: 100%;
+        max-height: 40vh;
+    }
+
+    .ProductDetail_Info{
+        width: 95%;
+        margin-top: 10px;
+        padding: 15px;
+        background-color: white;
+        justify-content: center;
+    }
+
+    .productLeft{
+        background: white;
+        font-size: 16px;
+        display: block;
+        box-sizing: border-box;
+        float: none;
+        width: 90%;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    
+    .ProductColumnLeft {
+        background: white;
+        font-size: 16px;
+        display: block;
+        float: none;
+        box-sizing: border-box;
+        width: 90%;
+        height: 45vh;
+        margin-bottom: 20px;
+    }
+    
+    .ProductColumnRight{
+        background: white;
+        font-size: 16px;
+        display: block;
+        float: none;
+        box-sizing: border-box;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+.loader {
+    color: #ffffff;
+    font-size: 90px;
+    text-indent: -9999em;
+    overflow: hidden;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    margin: 72px auto;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+    animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+  }
+  @-webkit-keyframes load6 {
+    0% {
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+    5%,
+    95% {
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+    10%,
+    59% {
+      box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+    }
+    20% {
+      box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+    }
+    38% {
+      box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+    }
+    100% {
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+  }
+  @keyframes load6 {
+    0% {
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+    5%,
+    95% {
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+    10%,
+    59% {
+      box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+    }
+    20% {
+      box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+    }
+    38% {
+      box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+    }
+    100% {
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+  }
+  @-webkit-keyframes round {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes round {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  

@@ -1,0 +1,137 @@
+
+
+.ProductDetail_Info{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.ProductDetail__tr{
+    border-bottom: 1px solid lightgray;
+}
+
+.ProductDetail__title{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.p_price_strike{
+    text-decoration: line-through;
+    font-size: 18px;
+}
+
+.p_price{
+    margin-left: 20px;
+}
+
+.ProductDetail__price{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+}
+
+.ProductDetaildesc{
+    margin: 15px;
+}
+
+.addProductDetailprice{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.productbtn{
+    width: 30%;
+    margin-top: 20px;
+}
+
+.p_seller{
+    margin-top: 10px;
+    font-size: 16px;
+    display: flex;
+    cursor: pointer;
+}
+
+.p_sellermorecomponent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.p_sellermorecomponent1{
+    font-size: 18px;
+}
+
+.p_sellermorecomponent2{
+    font-size: 18px;
+}
+
+
+
+@media (max-width: 890px)
+{   
+
+.ProductDetail_Info{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.ProductDetail__tr{
+    border-bottom: 1px solid lightgray;
+}
+
+.ProductDetail__title{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.p_price_strike{
+    text-decoration: line-through;
+    font-size: 18px;
+}
+
+.p_price{
+    margin-left: 20px;
+}
+
+.ProductDetail__price{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+}
+
+.ProductDetaildesc{
+    margin: 15px;
+}
+
+.addProductDetailprice{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.productbtn{
+    width: 30%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}

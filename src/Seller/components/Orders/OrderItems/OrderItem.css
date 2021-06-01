@@ -1,0 +1,34 @@
+.OrderItem{
+    display:flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.showitems{
+    display: flex;
+}
+
+.showitems > img{
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.addressDetails{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.starightalign{
+    display: flex;
+    align-items: center;
+}

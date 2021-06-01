@@ -1,0 +1,4 @@
+.Order{
+    display: flex;
+    flex-direction: column;
+}

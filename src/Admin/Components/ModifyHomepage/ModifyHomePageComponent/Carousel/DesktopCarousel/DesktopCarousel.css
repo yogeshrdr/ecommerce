@@ -1,0 +1,78 @@
+.DesktopCarousel{
+    padding: 10px;
+    margin-top:40px;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    align-items: center;
+    background-color: #EAEDED;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 10;
+    
+}
+
+.DesktopWindow{
+    min-height: 30vh;
+    min-width: 90%;
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DesktopCarousel__img__grp{
+    display: flex;
+    width: 95%;
+    height: 95%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Desktop_img_grp > img{
+    width: 100%;
+    min-width: 300px;
+    height: 300px;
+}
+
+@media (max-width: 970px) 
+{
+    .DesktopCarousel{
+        padding: 5px;
+        margin-top:20px;
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        align-items: center;
+        background-color: #EAEDED;
+        margin-right: auto;
+        margin-left: auto;
+        z-index: 10;
+    }
+    .DesktopWindow{
+        min-height: 30vh;
+        min-width: 95%;
+        background-color: rgb(201, 201, 201);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .DesktopCarousel__img__grp{
+        display: flex;
+        width: 98%;
+        height: 98%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Desktop_img_grp > img{
+        width: 100%;
+        min-width: 200px;
+        height: 200px;
+    }
+    
+    
+}

@@ -1,0 +1,32 @@
+.mobiletitlebar{
+    display: flex;
+    flex-direction: column;
+}
+
+.mobileavtar{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch; 
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+.mobileavtar::-webkit-scrollbar{
+    display: none;
+}
+
+.mobilelocation{
+    width: 96.4%;
+    background-color: #232F3E;
+    padding: 10px;
+}
+
+.mobileavtarone{
+    margin: 3px 5px;
+}
+
+.mobileavtarone > p{
+    font-size: 14px;
+}

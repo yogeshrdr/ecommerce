@@ -1,0 +1,43 @@
+
+.DemoView{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.homepage__home__desktop{
+    
+    width: 65%;
+    height: 600px;
+    overflow: scroll;
+}
+
+.homepage__home__mobile{
+    width: 30%;
+    height: 600px;
+    overflow: scroll;
+}
+
+
+@media (max-width: 970)
+{
+    .DemoView{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .homepage__home__desktop{
+    
+        width: 90%;
+        height: 600px;
+        overflow: scroll;
+    }
+
+    .homepage__home__mobile{
+        width: 70%;
+        height: 600px;
+        overflow: scroll;
+    }
+}

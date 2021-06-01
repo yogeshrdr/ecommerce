@@ -1,0 +1,57 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding:20px;
+    width: 90%;
+    min-height: 180px;
+    max-height: 400px;
+    background-color: white;
+    z-index: 1;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.list__info{
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.list__title{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.list > img{
+    max-height: 150px;
+    width: 20%;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.list__button{
+    cursor: pointer;
+    background: #001f6e;
+    border: 0.5px solid;
+    border-radius: 5px;
+    margin-top: 2px;
+    padding: 7px;
+    border-color: #087da1;
+    color: white;
+}
+
+.list__button:hover{
+    cursor: pointer;
+    background: #087da1;
+    border: 1px solid;
+    border-color: #001f6e;
+    color: white;
+}
+
+.list__price{
+    margin-top: 5px;
+}
+
+.list__star{
+    display: flex;
+}

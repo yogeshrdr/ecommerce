@@ -1,0 +1,27 @@
+.Carousel__carousel{
+    background-color: white;
+    width: 90%;
+    max-height: 44vh;
+}
+
+.Carousel_image{
+    max-height: 44vh;
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+@media (max-width: 890px)
+{   
+    .Carousel__carousel{
+        width: 100%;
+        background-color: white;
+        justify-content: center;
+    }
+
+    .Carousel_image{
+        width: 100%;
+        max-height: 40vh;
+    }
+
+}

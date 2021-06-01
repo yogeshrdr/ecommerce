@@ -1,0 +1,106 @@
+.mobilehead{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    align-items: center;
+    background-color:  #0D324D;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.mobileheader{
+    background-color: #0D324D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobilenav{
+    display: flex;
+    align-items: center;
+}
+
+.mobileslider{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    
+}
+
+.mobileslider > button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.MobileDrawerHeader{
+    width:95%;
+    color: white !important;
+    background-color:#232F3E;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 700;
+    display: flex;
+    text-align: center;
+}
+
+.MobileDrawerlists{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding : 10px;
+    min-width: 300px;
+    width: 40%;
+}
+
+.MobileDrawerlist{
+    width: 97%;
+    border-bottom: 2px solid lightgrey;
+}
+
+.MobileDrawerlistItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px;
+}
+
+.MobileDrawerlistItem:hover{
+    background-color: #EAEDED;
+}
+
+.MobileDrawerMenu{
+    display: flex;
+}
+
+.MobileDrawerMenu:hover{
+    background-color: #EAEDED;
+    cursor: pointer;
+}
+
+
+.MobileDrawerMenu > button{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.MobileDrawerMenuButton{
+    display: flex;
+}
+
+.MobileDrawerMenuButton>p{
+    margin-left: 6px;
+}
+
+.mobbtn{
+    background-color: transparent;
+    border: none;
+}

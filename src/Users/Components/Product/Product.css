@@ -1,0 +1,62 @@
+.ProductRow{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+
+.ProductLeft {
+    background: white;
+    font-size: 16px;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    width: 40%;
+    height: 45vh;
+}
+
+.ProductRight{
+    background: white;
+    font-size: 16px;
+    display: block;
+    float: right;
+    box-sizing: border-box;
+    width: 55%;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 890px)
+{   
+    .ProductRow{
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ProductLeft {
+        background: white;
+        font-size: 16px;
+        display: block;
+        float: none;
+        box-sizing: border-box;
+        width: 90%;
+        height: 45vh;
+        margin-bottom: 20px;
+    }
+    
+    .ProductRight{
+        background: white;
+        font-size: 16px;
+        display: block;
+        float: none;
+        box-sizing: border-box;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+}

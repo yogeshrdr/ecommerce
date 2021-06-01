@@ -1,0 +1,156 @@
+.addProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.addProductmain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.addProductmaincomponent1{
+    margin: 15px;
+    width: 35%;
+    background-color:white;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.addProductmaincomponent2{
+    margin: 15px;
+    width: 55%;
+    background-color:white;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.addProductmaincomponent1subcomponent{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.addProductmaincomponent1subcomponentsub{
+    width: 30%;
+}
+
+
+.home__image{
+    max-height: 250px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.addProductMain2{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 20px;
+    width: 92%;
+    height: 30vh;
+}
+
+.addProductMain2component1{
+    height: 20vh;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+
+.addProductmaincomponent2subcompoent{
+    height: 80%;
+}
+.CarouselMain{
+    height: 100%;
+}
+
+.addProductMain2Tag{
+    background-color: lightgrey;
+    margin: 5px;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addProducttitle{
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    text-align: justify;
+}
+
+.addProductMain2Tag>button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.lastAttack{
+    margin-top:10px;
+    width: 92%;
+    display: flex;
+    margin-left: 4vw;
+}
+.carouseldisplay{
+    display: flex;
+}
+
+@media (max-width: 910px){
+    .addProductmaincomponent1{
+        margin: 10px;
+        width: 90%;
+        background-color:white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .addProductmaincomponent2{
+        margin: 15px;
+        width: 45%;
+        background-color:white;
+        padding:10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .addProductmaincomponent2{
+        margin: 15px;
+        width: 90%;
+        background-color:white;
+        padding:10px;
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    .addProductmaincomponent1subcomponentsub{
+        width: 100%;
+    }
+    
+    .addProductMain2{
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding: 20px;
+        width: 90%;
+    }
+}
+
+.characters {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+
+.uploaddatabasebtn{
+    margin: 10px;
+}

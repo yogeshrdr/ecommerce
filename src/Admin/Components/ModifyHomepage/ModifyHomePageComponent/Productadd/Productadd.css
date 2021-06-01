@@ -1,0 +1,28 @@
+.Productadd{
+    margin: 40px;
+}
+.productaddlistproduct{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.productaddlistproductcheck{
+    width: 5%;
+    margin-left: 10px;
+}
+.productaddlistproductproduct{
+    width: 92%;
+}
+
+.ProductSearch{
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productwindow{
+    max-height: 60vh;
+    overflow: scroll;
+}

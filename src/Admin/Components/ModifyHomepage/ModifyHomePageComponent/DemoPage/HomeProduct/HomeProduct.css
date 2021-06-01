@@ -1,0 +1,32 @@
+.home__row{
+    display: flex;
+    z-index: 1;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.mobile__row{
+    flex-direction: column;
+}
+
+
+@media (max-width: 891px)
+{
+    .home__row{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}
+
+@media (min-width: 890px)
+{
+    .home__row{
+        display: flex;
+        width: 100%;
+        z-index: 1;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}

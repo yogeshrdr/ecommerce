@@ -1,0 +1,23 @@
+.homeimage__carouselimage{
+    width: 100%;
+}
+
+@media (min-width: 970px) and (max-width: 1368px)
+{
+    .homeimage__carouselimage{
+        width: 100%;
+        min-height: 50vh;
+        z-index: -1;
+    }
+}
+
+@media (min-width: 1368px)
+{
+    .homeimage__carouselimage{
+        width: 100%;
+        min-height: 50vh;
+        z-index: -1;
+        min-height: 50vh;
+        max-height: 60vh;
+    }
+}

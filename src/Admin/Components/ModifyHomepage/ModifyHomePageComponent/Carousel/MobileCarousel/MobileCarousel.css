@@ -1,0 +1,55 @@
+.MobileCarousel{
+    padding: 10px;
+    margin-top:40px;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    align-items: center;
+    background-color: #EAEDED;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 10;
+    
+}
+
+.MobileWindow{
+    min-height: 30vh;
+    min-width: 90%;
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MobileCarousel__img__grp{
+    display: flex;
+    width: 95%;
+    height: 95%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Mobile_img_grp > img{
+    width: 100%;
+    min-width: 300px;
+    height: 300px;
+}
+
+@media (max-width: 1024px) 
+{
+    .MobileCarousel{
+        padding: 10px;
+        margin-top:40px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        background-color: #EAEDED;
+        margin-right: auto;
+        margin-left: auto;
+        z-index: 10;
+        
+    }
+}

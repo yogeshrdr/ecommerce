@@ -1,0 +1,117 @@
+.addAddress{
+    background-color: rgb(234, 243, 247);
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    padding: 30px;
+    text-align: left;
+}
+
+.addAddress__section{
+    border-bottom: 2px solid lightgray;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.addAddress_added{
+    margin-top: 25px;
+}
+
+.addAddress_add{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.addAddress_added{
+    min-width: 30%;
+    margin: 20px;
+}
+.addAddress_added > button{
+    background: #001f6e;
+    border-radius: 2px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #087da1;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.addAddress_button{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.addAddress_button > button{
+    width: 45%;
+    padding: 5px;
+}
+
+
+.addAddress_conatiner {
+    background: rgb(234, 243, 247);
+    width: 40%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.addAddress_conatiner > h1 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.addAddress_conatiner > form > h5{
+    margin-bottom: 20px;
+}
+
+.addAddress_conatiner > form > input{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+}
+
+.addAddress_conatiner > form > select{
+    height: 32px;
+    width: 100%;
+}
+
+.addAddress_conatiner >p{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.login__signInButton{
+    background: #001f6e;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #087da1;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 920px)
+{  .addAddress_added{
+    min-width: 90%;
+    margin: 20px;
+    }
+    .addAddress_added > button{
+        width:100%;
+    }
+    .addAddress_button{
+        width: 100%;
+    }
+    
+    .addAddress_conatiner{
+        width: 90%;
+    }
+}
