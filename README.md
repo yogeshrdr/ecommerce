@@ -1,3 +1,15 @@
+To See the online web app go to this link
+https://ecommerce-web-yy.web.app/
+
+For Admin to modify the frontpage and add the categories 
+https://ecommerce-web-yy.web.app/admin
+
+For Manufacturer to add your product and product details
+https://ecommerce-web-yy.web.app/manufacturer
+
+For seller to add product price and qunatity and monitor the orders
+https://ecommerce-web-yy.web.app/seller
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
