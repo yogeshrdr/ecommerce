@@ -11,7 +11,6 @@ import Titlebar from './Components/Header/Titlebar';
 import Product from './Components/Product/Product';
 import firebase from 'firebase';
 import Checkout from './Components/Checkout/Checkout';
-import Payment from './Components/Payment/Payment'
 import OrderProduct from './Components/OrderProduct/OrderProduct'
 import Order from './Components/Orders/Order';
 
@@ -20,7 +19,6 @@ import Order from './Components/Orders/Order';
 function Users() {
     const [width,setWidth] = useState(window.innerWidth);
     const isMobile = width <= 910
-    const [localstoragecart, getlocalstroagecart] = useState(null);
 
     useEffect(() => {
         const handlewindowresize =  () => { 
@@ -48,7 +46,7 @@ function Users() {
         };
     }, []);
 
-    const [{user,sidebarcontent, desktopCarousel, mobileCarousel, cart, orderhistory}, dispatch] = useStateValue();
+    const [{user}, dispatch] = useStateValue();
     const [product, setproduct]= useState([]);
     const [desktopcarousel, setdesktopcarousel] = useState([]);
     const [mobilecarousel, setmobilecarousel] = useState([]);
@@ -143,19 +141,6 @@ function Users() {
 
     }, [])
 
-
-    useEffect(() => {
-        function checkUserData() {
-            const data = localStorage.getItem('name');
-            if(data){
-                getlocalstroagecart(JSON.parse(data));
-            }
-        }
-        window.addEventListener('storage', checkUserData)
-        return () => {
-        window.removeEventListener('storage', checkUserData)
-        }
-    }, [])
 
 
     useEffect(() =>{

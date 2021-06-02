@@ -10,19 +10,17 @@ import {db} from '../../../Database/firebase'
 
 
 function Product() {
-    
     const location = useLocation();
     const parsed = queryString.parse(location.search)
     const [{user}] = useStateValue();
     const [product, setproduct] = useState([]);
     const [seller, setseller] = useState([]);
-    const [feedback,setfeedback] = useState([]);
     const [loading, setloading] = useState(true);
     
 
     
     useEffect(() =>{
-        if(parsed.q!="" && parsed.q!==undefined && parsed.q!==null){
+        if(parsed.q!=="" && parsed.q!==undefined && parsed.q!==null){
             const docRef = db.collection('Product').doc(`${parsed?.q}`)
             docRef.get().then(doc =>{
                 if(doc.exists){
