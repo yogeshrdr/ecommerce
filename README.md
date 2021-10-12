@@ -1,3 +1,5 @@
+This is a ecommerce platform 
+
 To See the online web app go to this link
 
 https://ecommerce-web-yy.web.app/
